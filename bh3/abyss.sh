@@ -6,21 +6,21 @@ for j in {1..10}
 do
 sh event.sh 100 1800
 sh event.sh 100 1800
-sh event.sh 100 1800
-sh event.sh 100 1800
-# adb -s 9ff0b835 shell input tap 1800 1000
-# adb -s 9ff0b835 shell input tap 1800 1000
-# adb -s 9ff0b835 shell input tap 1800 1000
-# adb -s 9ff0b835 shell input tap 1800 1000
-# adb -s 9ff0b835 shell input tap 1800 1000
+# sh event.sh 100 1800
+# sh event.sh 100 1800
 # adb -s 9ff0b835 shell input tap 1800 1000
 # adb -s 9ff0b835 shell input swipe 1800 1000 1810 1010 500
 done
 
+# 点击支援技能
+sh event.sh 550 1800
+
 # 点击必杀
-adb -s 9ff0b835 shell input tap 1800 800
+# adb -s 9ff0b835 shell input tap 1800 800
+sh event.sh 350 1800
 # 点击武器技能
-adb -s 9ff0b835 shell input tap 1550 750
+# adb -s 9ff0b835 shell input tap 1550 750
+sh event.sh 350 1550
 echo "点击必杀"
 
 done
