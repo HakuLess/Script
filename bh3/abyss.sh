@@ -13,14 +13,13 @@ sh event.sh 100 1800
 done
 
 # 点击支援技能
-sh event.sh 550 1800
+# sh event.sh 550 1800
 
 # 点击必杀
-# adb -s 9ff0b835 shell input tap 1800 800
-sh event.sh 350 1800
+# sh event.sh 350 1800
+
 # 点击武器技能
-# adb -s 9ff0b835 shell input tap 1550 750
-sh event.sh 350 1550
+# sh event.sh 350 1550
 echo "点击必杀"
 
 done
