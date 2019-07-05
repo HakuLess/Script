@@ -4,6 +4,7 @@ y=$2
 # 按压时间
 # z=$3
 
+# 移动x、y位置
 adb shell sendevent /dev/input/event4 3 53 $x
 adb shell sendevent /dev/input/event4 3 54 $y
 adb shell sendevent /dev/input/event4 0 0 0
