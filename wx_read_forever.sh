@@ -1,11 +1,11 @@
 # for ((i=1; i<=5; i++)) do input swipe 650 650 150 150 500; done
 
-input swipe 650 650 150 150 500
+# input swipe 650 650 150 150 500
 
-# i=1; 
-# while [ $i -le 200000 ] ; 
-# do input swipe 650 650 150 150 500; sleep 30
-# done
+i=1; 
+while [ $i -le 2 ] ; 
+do input swipe 650 650 150 150 500; sleep 30 
+done
 
 # for i in {1..200000}  do  input swipe 650 650 150 150 500# sleep 3 done 
 
